@@ -15,6 +15,7 @@
     }
     .success{
         color:green;
+        text-align:center;
     }
     .save-btn{
         width:20%;
@@ -31,7 +32,7 @@
     </div>
 </div>
 <?php
-if(isset($_POST['save-setting-btn'])){
+if(isset($_POST['save-setting-btn']) && !empty($_POST['activation'])){
     delete_option('content-word1');
     delete_option('content-word2');
     delete_option('content-word3');
