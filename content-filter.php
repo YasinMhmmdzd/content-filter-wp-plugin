@@ -10,6 +10,7 @@ Version:1.0.0
 define('CF_PLUGIN_DIR' , plugin_dir_path(__FILE__));
 define('CF_INC_DIR' ,  CF_PLUGIN_DIR . "/inc/");
 define('CF_TPL_DIR' , CF_PLUGIN_DIR . "/template/");
+//CF =>content-filter Abbreviation
 if(is_admin()){
     include CF_INC_DIR . "menus.php";
 }
