@@ -2,7 +2,7 @@
 /*
 Plugin Name:Content-filter
 Description:filter your website's authors articles with this plugin
-Plugin URI:https://github.com/yasinmhmmdzd
+Plugin URI:https://github.com/yasinmhmmdzd/content-filter-wp-plugin
 Author:Yasin Mohammadzade
 Author URI:https://github.com/yasinmhmmdzd
 Version:1.0.0
